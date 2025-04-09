@@ -9,13 +9,14 @@ from datetime import datetime
 model = joblib.load("model.pkl")
 
 
-# Accès aux secrets via Streamlit Cloud
+# Accéder aux secrets
 access_token = st.secrets["access_token"]
 fernet_key = st.secrets["fernet_key"]
 
-# Afficher les secrets pour débogage (à ne pas laisser en production)
-st.write("Token d'accès:", access_token)
-st.write("Clé Fernet:", fernet_key)
+# Test de validation des secrets
+st.write(f"Access Token: {access_token}")
+st.write(f"Fernet Key: {fernet_key}")
+
   # Le token secret
 cipher = Fernet(fernet_key)
 
