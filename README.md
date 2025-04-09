@@ -24,10 +24,3 @@ Le modèle et le transformateur TF-IDF sont enregistrés dans des fichiers `mode
 
 ### Journalisation des accès
 - Un fichier `log_access.txt` garde une trace de toutes les actions importantes : chargement des données et génération de prédictions.
-
-## 🛠️ Installation
-
-1. Clonez ce repository sur votre machine locale :
-
-```bash
-git clone https://github.com/Rako75/sentimentcorp-secure-nlp.git
