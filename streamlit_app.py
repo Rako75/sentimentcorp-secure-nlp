@@ -9,8 +9,8 @@ from datetime import datetime
 model = joblib.load("model.pkl")
 
 # Chargement des secrets
-fernet_key = st.secrets["general"]["fernet_key"]
-access_token = st.secrets["general"]["access_token"]  # Le token secret
+fernet_key = st.secrets["fernet_key"]
+access_token = st.secrets["access_token"]  # Le token secret
 cipher = Fernet(fernet_key)
 
 def authenticate():
