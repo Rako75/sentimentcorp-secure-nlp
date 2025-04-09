@@ -30,4 +30,4 @@ Le modèle et le transformateur TF-IDF sont enregistrés dans des fichiers `mode
 1. Clonez ce repository sur votre machine locale :
 
 ```bash
-git clone https://github.com/votre_utilisateur/sentimentcorp-secure-nlp.git
+git clone https://github.com/Rako75/sentimentcorp-secure-nlp.git
